@@ -42,12 +42,13 @@ requestAnimationFrame(raf)
    
   
 
-    <div style={{ position: 'relative',overflow:"hidden", width: '100%', height: '100vh' }}>
+    <div className='relative w-full h-screen overflow-hidden'>
       <Image
         src={img} 
         alt="Picture of the author"
         layout="fill"
         objectFit="cover"
+        className='w-full h-full'
       />
     </div>
 

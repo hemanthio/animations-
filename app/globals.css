@@ -23,3 +23,10 @@ body{
   font-weight: <weight>;
   font-style: normal;
 }
+
+html, body {
+  overflow-x: hidden;
+}
+.scrollable-section {
+  overflow-x: visible;
+}

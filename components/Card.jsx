@@ -1,38 +1,29 @@
-'use client'
+'use client';
 
-import Image from 'next/image'
-import React ,{useRef} from 'react'
-import {motion, useScroll,useTransform} from 'framer-motion'
-const Card = ({i,title,description,src,link,color}) => {
-   
-  const container = useRef(null)
-const {scrollYProgress} = useScroll({
-  target:container,
-  offset:["start end","start start"]
-})
+import Image from 'next/image';
+import React, { useRef } from 'react';
 
-const scale =useTransform(scrollYProgress,[0,1],[2,1]) 
-
+const Card = ({ i, title, description, src, link, color }) => {
+  const container = useRef(null);
 
   return (
-    <div 
-    ref={container}
-     className='h-screen flex items-center justify-center sticky top-0'>
-    <div style={{backgroundColor:color, top:`calc(-5vh + ${i * 25}px)`}} 
-    className='w-[1000px] h-[500px] relative top-[-10%] rounded-xl'>
-
-   <motion.div style={{opacity:scrollYProgress}}>
-   <Image className='object-cover rounded-xl'
-   fill
-    src={`/images/${src}`} 
-    alt='image'
-   />
-   </motion.div>
-
-    </div> 
-
+    <div
+      ref={container}
+      className='flex items-center justify-center scrollable-section top-0 mt-8' // Added margin-top for spacing
+    >
+      <div
+        style={{ backgroundColor: color }}
+        className='relative w-[90%] h-[200px] md:w-[800px] md:h-[400px] lg:w-[1000px] lg:h-[500px] rounded-xl'
+      >
+        <Image
+          className='object-cover rounded-xl'
+          fill
+          src={`/images/${src}`}
+          alt='image'
+        />
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Card
+export default Card;

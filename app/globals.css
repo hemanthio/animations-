@@ -24,9 +24,9 @@ body{
   font-style: normal;
 }
 
-html, body {
+/* html, body {
   overflow-x: hidden;
-}
+} */
 .scrollable-section {
   overflow-x: visible;
 }

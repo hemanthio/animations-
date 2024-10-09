@@ -69,8 +69,8 @@ requestAnimationFrame(raf)
     <div className='h-[30vh]'></div>
   </div>
   <Marquee />
-  <Skills />
   <Cards />
+  
   <Services />
   <Getintouch />
   <Component />

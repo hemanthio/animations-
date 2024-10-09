@@ -49,7 +49,7 @@ export default function TextScramble({ children }) {
         setIteration((prev) => prev + 1);
         interval = setInterval(() => {
           setIteration((prev) => prev + 1);
-        }, 110);
+        }, 100);
       }, initDelay);
     }
 

@@ -21,7 +21,7 @@ export default function Footer() {
   }
 
   return (
-    <footer className="bg-black text-white py-6 px-2">
+    <footer className="bg-black text-white py-16 md:py-8 px-2">
       <div className="max-w-5xl mx-auto">
         <div className="flex items-center mb-4">
           <Image

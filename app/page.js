@@ -40,25 +40,15 @@ requestAnimationFrame(raf)
     
     <>
    
-  
-
-    <div className='relative w-full h-screen overflow-hidden'>
-      <Image
-        src={img} 
-        alt="Picture of the author"
-        layout="fill"
-        objectFit="cover"
-        className='w-full h-full'
-      />
-    </div>
+  <div className='h-screen bg-white'>
+  <h1>hemanth</h1>
+  <h1>Creative Developer</h1>
+  </div>
 
 
-<div className='absolute top-32  right-16 '>
-<h1 className='text-2xl  uppercase font-bold font-[helvetica]'>Hemanth</h1>
-<h1 className='text-2xl pb-4  font-[helvetica]'>Designer &amp; Developer</h1>
-<h2 className='text-[32px]  w-[440px] leading-tight font-bold font-[roboto] tracking-tight'>Transforming ideas into responsive, high-performing websites</h2>
-</div>
-    
+
+
+
     <Hamburger />
 
      <div className='bg-black text-white'>

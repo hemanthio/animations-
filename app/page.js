@@ -16,6 +16,7 @@ import Getintouch from '@/components/Getintouch'
 import Component from '@/components/Footer'
 import Marquee from '@/components/Marquee'
 import Skills from '@/components/Skills'
+import Herosection from '@/components/Herosection'
 
 
 const paragraph = "Crafting high-performance web solutions, from engaging animations to fully responsive websites, designed to enhance user interaction and strengthen your online presence."
@@ -40,11 +41,7 @@ requestAnimationFrame(raf)
     
     <>
    
-  <div className='h-screen bg-white'>
-  <h1>hemanth</h1>
-  <h1>Creative Developer</h1>
-  </div>
-
+  <Herosection />
 
 
 

@@ -162,11 +162,11 @@ export default function Component() {
 
   const menuItems = [
     { name: 'Home', path: '/' },
-    { name: 'Our Work', path: '/works' },
-    { name: 'Expertise', path: '/expertise' },
-    { name: 'About', path: '/about' },
-    { name: 'Blog', path: '/blog' },
-    { name: 'Contact', path: '/contact' }
+    { name: 'My Work', path: '#works' },
+    { name: 'Expertise', path: '#expertise' },
+  
+    
+    { name: 'Contact', path: '#contact' }
   ];
 
   const menuVariants = {

@@ -4,11 +4,11 @@ export default function Services() {
   return (
     <div style={{ marginTop: "200px" }}>
      
-      <div className="flex bg-black text-white flex-col h-screen justify-center items-center" >
+      <div id="expertise" className="flex bg-black text-white flex-col h-screen justify-center items-center" >
       <h1 className="text-3xl font-[helvetica] font-bold opacity-60 pb-8">Expertise</h1>
       
       <TextScramble >
-      3D Web Development
+      Web Development
 
       </TextScramble>
       <TextScramble >
@@ -16,7 +16,7 @@ export default function Services() {
       </TextScramble>
 
       <TextScramble >
-      SEO
+      Framer
       </TextScramble>
       <TextScramble >
       

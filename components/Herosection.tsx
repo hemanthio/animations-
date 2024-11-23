@@ -57,7 +57,7 @@ const HeroSection = () => {
         <div className="w-[400px] h-[250px] rounded-2xl overflow-hidden">
           <img
             className="w-full h-full object-cover"
-            src="https://images.unsplash.com/photo-1730292423126-077dd3750a46?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw1fHx8ZW58MHx8fHx8"
+            src="/images/person.jpg"  // Updated image source
             alt="Hero image"
           />
         </div>

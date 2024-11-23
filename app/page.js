@@ -8,7 +8,7 @@ import StackCard from '@/components/stackcard'
 import Paragraph from '@/components/Paragraph'
 import Word from '@/components/Word'
 import Character from '@/components/Character'
-import Cards from './Cards'
+import Card from '@/components/Card'
 import Lenis from '@studio-freight/lenis'
 import Loader from '@/components/Loader'
 import Services from '@/components/Services'
@@ -56,7 +56,7 @@ requestAnimationFrame(raf)
     <div className='h-[30vh]'></div>
   </div>
   <Marquee />
-  <Cards />
+  <Card />
   
   <Services />
   <Getintouch />

@@ -2,12 +2,12 @@ import React from 'react';
 
 const Getintouch = () => {
   const handleCalendarOpen = () => {
-    const calUrl = `https://cal.com/aryawebly-ltadci/30min`;
+    const calUrl = `https://cal.com/hemanth-ltadci/30min`;
     window.open(calUrl, '_blank', 'width=800,height=600'); // Open calendar in a new window
   };
 
   return (
-    <div className='h-screen w-full font-[helvetica] flex flex-col gap-12 justify-center items-center'>
+    <div id="contact"  className='h-screen w-full font-[helvetica] flex flex-col gap-12 justify-center items-center'>
       <div className='flex flex-col justify-center items-center gap-4'>
         <h1 className='text-xl tracking-tight opacity-60 font-bold text-black'>Got a cool project in mind?</h1>
         <div className='flex flex-col justify-center items-center'>
